@@ -1,0 +1,48 @@
+{
+  "title": "Food Supply Chain Sales & Profitability Dashboard",
+  "subtitle": "Where to focus to improve margins and reduce supply chain costs",
+  "kpis": [
+    { "label": "Total Sales", "key": "total_sales", "format": "money" },
+    { "label": "Profit Margin", "key": "profit_margin_pct", "format": "percent" },
+    { "label": "Avg Discount", "key": "avg_discount_pct", "format": "percent" },
+    { "label": "Sales Growth YoY", "key": "sales_growth_yoy_pct", "format": "percent" },
+    { "label": "Order Lines", "key": "order_lines", "format": "number" }
+  ],
+  "charts": [
+    {
+      "title": "Sales vs Profit by Food Category",
+      "type": "bar",
+      "file": "data/category_profit.json",
+      "x": "category",
+      "y": ["total_sales", "total_profit"]
+    },
+    {
+      "title": "Top 10 Provinces by Profit",
+      "type": "bar",
+      "file": "data/region_profit.json",
+      "x": "province",
+      "y": ["total_profit"]
+    },
+    {
+      "title": "Profit Margin by Discount Band",
+      "type": "line",
+      "file": "data/discount_margin.json",
+      "x": "discount_band",
+      "y": ["profit_margin_pct"]
+    },
+    {
+      "title": "Shipping Cost as % of Sales by Ship Mode",
+      "type": "bar",
+      "file": "data/ship_mode.json",
+      "x": "ship_mode",
+      "y": ["shipping_cost_pct"]
+    },
+    {
+      "title": "Top 5 Products by Profit",
+      "type": "bar",
+      "file": "data/top_products.json",
+      "x": "product_name",
+      "y": ["total_profit"]
+    }
+  ]
+}
