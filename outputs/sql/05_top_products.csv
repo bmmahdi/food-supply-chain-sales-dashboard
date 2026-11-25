@@ -1,0 +1,6 @@
+product_name,product_category,order_lines,total_sales,total_profit,profit_margin_pct,profit_flag
+Global Troy� Executive Leather Low-Back Tilter,Furniture,17,275941.52,79284.78,28.73,Profitable
+Hewlett Packard LaserJet 3310 Copier,Technology,10,194880.35,73299.61,37.61,Profitable
+"Hewlett-Packard cp1700 [D, PS] Series Color Inkjet Printers",Technology,10,128100.43,55281.39,43.15,Profitable
+GBC DocuBind 200 Manual Binding Machine,Office Supplies,16,120342.74,50462.53,41.93,Profitable
+Canon PC940 Copier,Technology,18,210910.68,47705.85,22.62,Profitable

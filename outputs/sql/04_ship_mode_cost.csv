@@ -1,0 +1,4 @@
+ship_mode,order_lines,total_sales,total_shipping_cost,shipping_cost_pct_of_sales,avg_profit_per_line,avg_discount_pct
+Delivery Truck,1146,6224878.72,51971.94,0.83,235.29,4.98
+Regular Air,6270,7506303.21,48008.19,0.64,176.19,4.96
+Express Air,983,1184418.9,7850.91,0.66,149.98,4.99

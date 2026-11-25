@@ -1,0 +1,14 @@
+province,region,order_lines,total_sales,total_profit,profit_margin_pct,avg_discount_pct,total_shipping_cost
+Ontario,Ontario,1826,3063212.48,346868.54,11.32,4.91,23475.26
+Saskachewan,Prarie,913,1464455.82,184732.96,12.61,4.93,10420.24
+Alberta,West,865,1704791.49,151946.48,8.91,4.9,11118.67
+British Columbia,West,1126,1892757.78,145062.13,7.66,4.87,13464.48
+Quebec,Quebec,781,1510195.08,140426.65,9.3,4.98,10543.34
+Manitoba,Prarie,793,1372848.78,136427.16,9.94,5.06,10450.69
+New Brunswick,Atlantic,323,684211.52,115351.94,16.86,4.85,4046.41
+Northwest Territories,Northwest Territories,394,800847.33,100653.08,12.57,5.01,5418.93
+Nova Scotia,Atlantic,464,817729.36,85361.87,10.44,5.17,6480.42
+Yukon,Yukon,542,975867.37,73849.21,7.57,5.08,7469.81
+Prince Edward Island,Atlantic,211,409383.25,31361.71,7.66,5.14,2970.38
+Newfoundland,Atlantic,82,102924.07,6885.14,6.69,5.22,963.62
+Nunavut,Nunavut,79,116376.48,2841.11,2.44,5.23,1008.79
