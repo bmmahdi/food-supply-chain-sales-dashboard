@@ -80,11 +80,34 @@ open docs/index.html
 
 ## Key findings
 
-_The analysis runs automatically with GitHub Actions; findings appear here when it finishes._
+- Beverages lead profitability with a 14.81% margin on $5.98M sales, while Snacks have a low 2.27% margin on $5.18M sales.
+- Perishables have the highest order volume (4,610 lines) and a 13.8% margin, but lower sales of $3.75M.
+- Ontario is the top province by sales ($3.06M) and profit ($346.9K) with an 11.32% margin; New Brunswick has the highest margin at 16.86%.
+- Discounts above 6% significantly reduce margins: 6-10% discount band yields 7.8% margin vs. 12.6% for no discount, and 20%+ discounts result in negative profit.
+- Delivery Truck has the highest average profit per line ($235.29) and a shipping cost of 0.83% of sales, while Express Air has the lowest profit per line ($149.98).
+- 553 loss-making products exist, and top products are dominated by Technology and Furniture items with margins above 22%.
+
+**Recommendations**
+- Reduce discount levels, especially for Snacks, to improve margins; avoid discounts above 10% as they lead to negative profits.
+- Focus marketing and inventory efforts on high-margin categories like Beverages and Perishables, and investigate cost structures for Snacks to improve their 2.27% margin.
+- Optimize shipping mode selection: promote Delivery Truck for high-value orders due to higher profit per line, and review Express Air usage for lower-profit items.
+
+<details><summary>🇫🇷 Résumé en français</summary>
+
+Ce projet analyse les données de ventes et de rentabilité pour identifier les catégories de produits et les régions qui génèrent des profits pour un fabricant de produits alimentaires. Le tableau de bord révèle que les boissons et les produits périssables offrent des marges élevées, tandis que les collations sont moins performantes, et que les remises et les modes d'expédition ont un impact significatif sur la rentabilité globale.
+
+- Les boissons sont les plus rentables avec une marge de 14,81% sur 5,98 M$ de ventes, tandis que les collations ont une faible marge de 2,27% sur 5,18 M$ de ventes.
+- Les produits périssables ont le plus grand volume de commandes (4 610 lignes) et une marge de 13,8%, mais des ventes plus faibles de 3,75 M$.
+- L'Ontario est la province leader en ventes (3,06 M$) et en profit (346,9 K$) avec une marge de 11,32%; le Nouveau-Brunswick a la marge la plus élevée à 16,86%.
+- Les remises supérieures à 6% réduisent considérablement les marges : la tranche de remise 6-10% donne une marge de 7,8% contre 12,6% sans remise, et les remises de 20%+ entraînent une perte.
+- Le camion de livraison a le profit moyen par ligne le plus élevé (235,29$) et un coût d'expédition de 0,83% des ventes, tandis que le transport aérien express a le profit par ligne le plus faible (149,98$).
+- 553 produits sont déficitaires, et les meilleurs produits sont dominés par la technologie et le mobilier avec des marges supérieures à 22%.
+
+</details>
 
 ## Dashboard
 
-📊 Dashboard: published with the project.
+📊 **Interactive dashboard:** https://bmmahdi.github.io/food-supply-chain-sales-dashboard/
 
 ## Skills demonstrated
 
